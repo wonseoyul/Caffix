@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ProfileActivity"
+    android:background="#ffffff">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#8BC24A"
+        android:title="@string/profile"
+        android:titleTextColor="#563b1e" />
+
+    <ImageView
+        android:id="@+id/imageViewProfilePicture"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/caffix"
+        android:scaleType="centerCrop" />
+
+    <!-- 사용자 이메일 -->
+    <TextView
+        android:id="@+id/textViewEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:text="Email"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <!-- 사용자 이름 -->
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_gravity="center"
+        android:hint="Name"
+        android:inputType="textPersonName" />
+
+
+    <Button
+        android:id="@+id/buttonChangePassword"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#fef7e5"
+        android:layout_gravity="center"
+        android:text="비빌번호\n변경"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/buttonUpdateProfile"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="프로필 \n 업데이트"
+        android:layout_gravity="center"
+        android:textColor="#000000"
+        android:backgroundTint="#fef7e5"/>
+
+    <!-- 로그아웃 버튼 -->
+    <Button
+        android:id="@+id/buttonLogout"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#fef7e5"
+        android:layout_gravity="center"
+        android:text="로그아웃"
+        android:textColor="#000000" />
+
+</LinearLayout>

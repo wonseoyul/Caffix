@@ -1,0 +1,27 @@
+<resources>
+    <string name="Button1">로그인</string>
+    <string name="edit_text2">비밀번호</string>
+    <string name="edit_text1">사용자명</string>
+    <string name="prompt_cafe">카페</string>
+    <string name="prompt_category">카테고리</string>
+    <string name="prompt_menu">메뉴</string>
+    <string name="prompt_size">사이즈</string>
+    <string name="prompt_option">옵션</string>
+    <string name="app_name">Caffix</string>
+    <string name="default_web_client_id">802997710419-3lhsfhibf6b40v67l8bdi64mq2rqvpek.apps.googleusercontent.com</string>
+    <string name="profile">Profile</string>
+
+
+    <string-array name="CAFE_array">
+        <item>메가커피</item>
+        <item>투썸플레이스</item>
+        <item>할리스</item>
+        <item>컴포즈 커피</item>
+        <item>스타벅스</item>
+        <item>빽다방</item>
+        <item>더벤티</item>
+        <item>공차</item>
+    </string-array>
+
+</resources>
+
