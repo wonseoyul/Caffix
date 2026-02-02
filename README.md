@@ -19,7 +19,7 @@
   - 이메일 확인, 비밀번호 변경, 로그아웃  
 
 ## 사용 기술
-- **언어 / IDE:** Kotlin, Android Studio  
+- **언어 / IDE:** JAVA, Android Studio  
 - **백엔드 / DB / 푸시:** Firebase  
 - **버전 관리:** Git, GitHub  
 
